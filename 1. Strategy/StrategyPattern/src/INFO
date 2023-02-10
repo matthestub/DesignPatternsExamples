@@ -1,0 +1,7 @@
+- zapewnienie bardziej elastycznego sposobu tworzenia nowych obiektów, gdy chcę by miały różne funkcjonalności,
+ możliwości
+- tworzenie interfejsów na podstawie których będę tworzył klasy z konkretnymi funkcjonalnościami
+- utworzenie jedenj klasy abstrakcyjnej służącej za wzorzec dla klas potomnych
+- tworzenie klas potomnych w ten sposob by poprzez pola (najogólniejsze interfejsy) wstrzykiwać konkretne
+klasy będące właściwościami/umiejętnościami, ujęcie tych pól w konstruktorach
+- wykonywanie poszczególnych metod za posrednictwem wstrzykniętych konkretnych implementacji
