@@ -1,0 +1,6 @@
+Relacja 1 do wielu. 1 obiekt który jest w centrum zainteresowanie wielu obiektów, które chcą monitorować
+parametry/stan poszczególnych pól tego obiektu.
+Zamiast przeprowadząc wiele operacji typu "czy zmienił się twój stan", to przeprowadza się rejestrację obiektów
+obserwujących wewnątrz monitorowanego obiektu. W momencie zajścia zmiany, wysyła się taką informację lub nawet
+wartości zmian do zainteresowanych obiektów, poprzez wywoływanie ich specjalniej do tego metody.
+
