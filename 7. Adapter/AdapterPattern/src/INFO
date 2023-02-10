@@ -1,0 +1,11 @@
+Wzorzec ten mogę wykorzystać gdy istnieje w kodzie miejsce w którym znajduje się element którego należy
+użyć, lecz np. jest on ogólnego typu i nie posiada konkretnej implementacji. Znany jest natomiast ogólny
+interfejs (Pen).
+
+Musi istnieć konkretna klasa (GelPen) dzięki której będę mógł zrealizować zadanie w taki sposób jakbym posługiwał
+się implementacją ogólnego interfejsu której nie posiadam.
+
+Mogę wtedy stworzyć klasę (PenAdapter) która implementuje ogólny interfejs (Pen) i dzięki temu będize mogła zostać
+użyta w miejsce które wcześniej miałem null. W takiej klasie użyję obiekt którego implementację mam (GelPen)
+i na tym obiekcie wywołam potrzebne mi metody wewnątrz metod które będę musiał zaimplementować z ogolnego
+interfejsu. Dlatego taka klasa może być nazwana PenAdapter.
